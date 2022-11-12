@@ -7,7 +7,7 @@ export const Footer: FunctionComponent = () => {
   return (
     <div className='mb-6 flex flex-col items-center justify-center'>
       <SocialIcons />
-      <span className='mt-4 text-xs text-gray-800 dark:text-white'>
+      <span className='text-xs mt-2 text-white dark:text-white'>
         &copy; {year} Sebastian Semeniuc
       </span>
     </div>

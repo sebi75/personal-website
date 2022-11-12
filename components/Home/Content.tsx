@@ -5,18 +5,18 @@ import Image from 'next/image';
 
 export const HomeContent: FunctionComponent = () => {
   return (
-    <div className='flex flex-col w-full h-full rounded-lg p-9 m-5 shadow-light-around-shadow'>
+    <div className='flex flex-col w-full rounded-lg text-white p-20 m-5 shadow-light-around-shadow'>
       <div>
           <div className='mb-5 flex flex-row items-center'>
-            <h1 className='text-3xl dark:text-white uppercase'>
+            <h1 className='text-3xl text-white uppercase'>
               Sebastian Semeniuc
             </h1>
             <AvatarComponent />
           </div>
-      <p className='mb-4 text-xl font-bold dark:text-white'>
+      <p className='mb-4 text-xl font-bold text-white'>
         Software Engineer
       </p>
-      <ul className='m-2'>
+      <ul className='m-2 w-full md:w-3/4'>
         <ListItem>
           Sebastian is a software engineer with a passion for building scalable and maintainable software. He has experience in building web and mobile fullstack applications.
         </ListItem>
@@ -45,7 +45,7 @@ interface IListItemProps {
 
 const ListItem: FunctionComponent<IListItemProps> = ({ children, className }) => {
   return (
-    <li className={clsx('dark:text-white bullet list-disc m-3', className)}>
+    <li className={clsx('text-white bullet list-disc m-3', className)}>
       {children}
         </li>
   )

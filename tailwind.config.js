@@ -23,9 +23,9 @@ module.exports = {
           100: '#f2f3f5',
         },
       },
-      backgroundImage: {
+      /* backgroundImage: {
         "gradient-bg": "linear-gradient(to right, #0e22a6, #6256bf, #988cd6, #cbc4eb, #ffffff);",
-      },
+      }, */
       boxShadow: {
         'shadow-1': 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
         'light-around-shadow': 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
