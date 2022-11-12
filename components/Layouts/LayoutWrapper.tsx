@@ -13,7 +13,7 @@ export const LayoutWrapper: FunctionComponent<ILayoutWrapperProps> = ({
 }) => {
   return (
     <WebsiteLayout>
-      <div className='flex h-screen flex-col items-center justify-between dark:bg-gray-800'>
+      <div className='flex h-screen w-full flex-col justify-between items-center dark:bg-gray-800'>
         <Header />
         {children}
         <Footer />

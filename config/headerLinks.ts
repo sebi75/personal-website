@@ -5,7 +5,6 @@ type ILink = {
 
 type IHeaderLinks = {
   home: ILink;
-  about: ILink;
   contact: ILink;
   blog: ILink;
   projects: ILink;
@@ -19,10 +18,6 @@ export const headerLinks: IHeaderLinks = {
   blog: {
     label: 'Blog',
     href: '/blog',
-  },
-  about: {
-    label: 'About',
-    href: '/about',
   },
   contact: {
     label: 'Contact',

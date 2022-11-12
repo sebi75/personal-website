@@ -53,13 +53,13 @@ export const Header: FunctionComponent = () => {
         <LinksList />
         {websiteThemeIcon}
       </div>
-      <div className='flex w-full items-center justify-end px-4 sm:hidden'>
+      <div className='flex w-full items-center justify-end px-4 sm:hidden z-10'>
         {websiteThemeIcon}
         {mobileNavIcon}
         {isOpened && (
           <div className='fixed top-20 right-0 h-screen w-full bg-white dark:bg-gray-800'>
             <div className='flex flex-col items-center justify-center p-24'>
-              <LinksList className='text-2xl' onPress={handleToggleMenu} />
+              <LinksList className='text-2xl m-6' onPress={handleToggleMenu} />
             </div>
           </div>
         )}

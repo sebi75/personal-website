@@ -8,8 +8,8 @@ export const WebsiteLayout: FunctionComponent<IWebsiteLayoutProps> = ({
   children,
 }) => {
   return (
-    <div className='h-full w-full light:bg-gradient-bg dark:bg-gray-800'>
-      <div className='mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0'>
+    <div className='h-full w-full dark:bg-gray-800'>
+      <div className='mx-auto p-3 max-w-4xl xl:max-w-5xl'>
         {children}
       </div>
     </div>
